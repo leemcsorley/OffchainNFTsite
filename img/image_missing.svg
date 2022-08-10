@@ -1,0 +1,16 @@
+<svg width='690' height='690' viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+<mask id="torn">
+  <rect x="287" y="285" width="26" height="30" fill="white" />
+  <line x1="300" y1="316" x2="314" y2="302" stroke="black" stroke-width="3" />
+</mask>
+
+<g style="mask:url(#torn)">
+  <polygon points="288,286 306,286 306,292 312,292 312,314 288,314" style="fill:rgb(199,211,235);stroke-width:2;stroke:rgb(158,158,158)" />
+  <polygon points="306,288 307,287 311,291 310,292 306,292" style="fill:rgb(255,255,255);stroke-width:2;stroke:rgb(158,158,158)" />
+
+  <path d="M 290 313 A 10 10 0 0 1 310 313" fill="#58ae39" />
+  <path d="M 291 296 A 6 6 0 0 1 301 294 L 301 296" fill="#ffffff" />
+</g>
+
+</svg>
